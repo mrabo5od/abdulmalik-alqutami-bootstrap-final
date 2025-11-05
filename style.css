@@ -1,0 +1,274 @@
+.main-heading {
+    color: blue;
+    text-align: center;
+    margin-top: 50px;
+    border: #74aee9 2px solid;
+}
+.btn{
+    background-color: #ff5733;
+    color: rgb(133, 23, 23);
+}
+.nav-btn{
+    background-color: #33ff57;
+    color: rgb(167, 42, 59);
+}
+.nav-btn:hover{
+    background-color: #a7286e;
+    color: white;
+}
+.navbar-brand img{
+   width: 100px;
+   height: 70px;
+}
+.carsousel-item img{
+    height: 80vh;
+}
+.products img{
+    height:200px;
+    width: 200px;
+    border-radius: 20%;
+    box-shadow: 5px 5px 15px grey;
+}
+.products h3{
+    color: #ff5733;
+    font-weight: 300;
+    font-size: 25px;
+}
+.products p{
+    color: grey;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: 200;
+}
+.footer li{
+list-style: none;
+    color: white;
+    margin :10px 0;
+}
+.main-footer{
+    background-color: #333;
+    color: white;
+    padding: 15px 0;
+}
+.container-about img{
+    width: 90%;
+    height: 50%;
+    margin-right: 15px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 15px grey;
+}
+.container-about h2{
+    margin-top: 15px;
+    color: #ff5733;
+    font-weight: 300;
+    font-size: 25px;
+  text-shadow: #333 1px 1px 2px;
+  
+}
+.container-about p{
+    color: grey;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: 200;
+    font-style: bold;
+    border: #d2cfcf 0.5px solid;
+    padding: 10px;
+    border-radius: 10%;
+    box-shadow: 5px 5px 15px grey;
+}
+.container-contact{
+    width: 50%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px grey;
+}
+.container-contact h2{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #655f5e;
+    font-weight: 300;
+    font-size: 25px;
+    text-overflow: clip;
+    text-shadow: #333 1px 1px 1px;
+    text-transform: uppercase;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+.container-contact p{
+    text-align: center;
+    margin-bottom: 20px;
+    color: grey;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: 200;
+}
+.contact-form{
+    width: 100%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px grey;
+    margin: auto;
+    text-align: center;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+.contact-form input, .contact-form textarea{
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #502c2c;
+    box-shadow: 2px 2px 5px grey;
+    text-align: center;
+    box-shadow: 5px 5px 15px grey;
+    animation-name: glow;
+    color: #000;
+}
+.contact-form button{
+    background-color: #33cfff;
+    color: rgb(92, 49, 49);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 5px 5px 15px grey;
+}
+.contact-form button:hover{
+    background-color: #2b95e0;
+}
+.container-contact form label{
+    float: left;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.container-contact form textarea{
+    height: 100px;
+    resize: none;
+    color: #000;
+}
+.container-contact form input[type="submit"]{
+    background-color: #33ff57;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.container-contact form input[type="submit"]:hover{
+    background-color: #28a745;
+}
+.container-contact form input, .container-contact form textarea{
+    margin-bottom: 15px;
+}
+.container-contact form input:focus, .container-contact form textarea:focus{
+    outline: none;
+    border-color: #33a3ff;
+    box-shadow: 0 0 5px #2baed6ab;
+}
+.information-contact{
+    margin-top: 20px;
+    color: grey;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: 200;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px grey;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+}
+.information-contact h2{
+    margin-bottom: 10px;
+    color: #6c1704;
+    font-weight: 300;
+    font-size: 20px;
+    text-shadow: #333 1px 1px 2px;
+    font-style: 3 bold;
+    padding: 5px;
+    
+}
+.information-contact p{
+    margin-bottom: 5px;
+    color: grey;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: 200;
+    border: #d2cfcf 0.5px solid;
+    padding: 5px;
+    box-sizing: border-box;
+    border-radius: 30%;
+    box-shadow: 0.5px 0.5px 3px grey;
+    box-decoration-break: clone;
+    width: 30%;
+    margin: auto;
+}
+.contact-heading{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #655f5e;
+    font-weight: 300;
+    font-size: 100px;
+    text-overflow: clip;
+    text-shadow: #333 1px 1px 1px;
+    text-transform: uppercase;
+    animation: glow 1s ease-in-out infinite alternate;
+    background: scrolling text;
+}
+@keyframes glow {
+    from {
+        text-shadow: 0 0 5px #33a3ff, 0 0 10px #33a3ff, 0 0 20px #33a3ff, 0 0 40px #33a3ff;
+    }
+    to {
+        text-shadow: 0 0 10px #2baed6, 0 0 20px #2baed6, 0 0 30px #2baed6, 0 0 50px #2baed6;
+    }
+}
+
+.login-first-child img{
+    width: 100vh;
+    height: 100vh;
+}
+
+.login-second-child{
+    width: 500px;
+    margin: 10px auto;
+    margin-top: 50px;
+}
+
+.login-btn{
+    background-color: brown;
+    color: white;
+    width: 150px;
+    padding: 8px
+}
+
+.login-btn:hover{
+    background-color: rgb(114, 6, 6);
+    color: white;
+    width: 150px;
+    padding: 8px
+}
+
+.login-input{
+    background-color: lightgray;
+    border-radius: 20px;
+    padding: 7px;
+    margin: 20p 0px;
+}
+
+.login-heading{
+    color: brown;
+}
+
+.login-icons{
+    display: flex;
+    justify-content: center;
+}
+
+.fa-google{
+    color: red;
+}
+
+.login-icons .fa{
+    font-size: 32px;
+}
